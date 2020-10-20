@@ -12,8 +12,6 @@ class MainPage extends StatefulWidget {
 
 class _MainPageState extends State<MainPage>
     with SingleTickerProviderStateMixin {
-  bool _status = true;
-
   final FocusNode myFocusNode = FocusNode();
 
   @override
@@ -183,6 +181,7 @@ class _MainPageState extends State<MainPage>
                       ),
                     ),
                   ),
+
                   RaisedButton(
                       shape: StadiumBorder(),
                       color: Colors.blue,
